@@ -1,0 +1,11 @@
+  alpha ~ student_t(nu, mu, sigma);
+  sigma ~ student_t(nu, mu, sigma);
+  rho ~ student_t(nu, mu, sigma);
+
+  a1 ~ lognormal(mu, sigma);
+  b1 ~ lognormal(mu, sigma);
+  a2 ~ lognormal(mu, sigma);
+  b2 ~ lognormal(mu, sigma);
+
+  psi1 ~ gamma(alpha, beta);
+  psi2 ~ gamma(alpha, beta);
