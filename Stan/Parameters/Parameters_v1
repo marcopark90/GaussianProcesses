@@ -1,0 +1,11 @@
+  alpha ~ lognormal(mu, sigma);
+  sigma ~ lognormal(mu, sigma);
+  rho ~ lognormal(mu, sigma);
+
+  a1 ~ lognormal(mu, sigma);
+  b1 ~ lognormal(mu, sigma);
+  a2 ~ lognormal(mu, sigma);
+  b2 ~ lognormal(mu, sigma);
+
+  psi1 ~ gamma(alpha, beta);
+  psi2 ~ gamma(alpha, beta);
