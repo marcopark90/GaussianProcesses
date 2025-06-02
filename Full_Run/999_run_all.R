@@ -1,0 +1,6 @@
+source("./Code/0_libraries.R")
+source("./Code/1_triangle_selection.R")
+source("./Code/2_get_estimates_am.R")
+source("./Code/2_get_estimates_LR.R")
+source("./Full_Run/1_full_run.R")
+source("./Full_Run/2_traditional.R")
